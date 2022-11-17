@@ -6,7 +6,7 @@ Python 3.8
 * Install libraries
 ```
 cd AES
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 * Run the code on 2 machines
