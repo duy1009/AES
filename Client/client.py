@@ -149,7 +149,7 @@ if __name__ == "__main__":
             key=str(input())
             key_AES = generateAESKey(key,len_key) # create AES key
             print("Your AES key: ", key_AES)
-        elif x==4:
+        elif x==3:
             print("END")
             break 
     s.close()
