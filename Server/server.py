@@ -4,7 +4,6 @@ import numpy as np
 import cv2
 from Crypto.Cipher import AES
 
-
 HOST='localhost'
 PORT=8000
 DATA_MAX = 2**24
