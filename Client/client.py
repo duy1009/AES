@@ -5,14 +5,15 @@ import cv2
 from Crypto.Cipher import AES
 
 HOST='localhost'
-PORT=8000
+PORT=9000
 DATA_MAX = 2**24
 WIDTH = 960
 HEIGHT = 540
 import os
 import glob
 import time
-
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+server_address = (HOST, PORT)
 
 def recv_all(sc, length):
     data = sc.recv(length)
@@ -114,8 +115,7 @@ def connect(sc):
    
 
 if __name__ == "__main__":
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_address = (HOST, PORT)
+    
 
     print("Enter key: ")
     key = str(input())

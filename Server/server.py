@@ -5,8 +5,7 @@ import cv2
 from Crypto.Cipher import AES
 
 HOST='localhost'
-PORT=8000
-DATA_MAX = 2**24
+PORT=9000
 WIDTH = 960
 HEIGHT = 540
 import os
@@ -76,7 +75,7 @@ def connect(s):
 def sendImage(client,key_AES):
     
     print("waiting for your camera...")
-    vid = cv2.VideoCapture(0,cv2.CAP_DSHOW)
+    vid = cv2.VideoCapture(0)
     
     # capture image
     while True:
