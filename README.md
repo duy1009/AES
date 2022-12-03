@@ -1,6 +1,4 @@
 ## Description
-<<<<<<< HEAD
-=======
 ![Demo_AES drawio](https://user-images.githubusercontent.com/84137684/202900733-6c929e4e-2d55-4507-9154-cb1ea8491e83.png)
 
 
@@ -26,3 +24,6 @@ You can find the IP address with the command `ipconfig` for windows and `ifconfi
 Step 3: Run code
 
 *Node: you can run it on a machine if you edit the ip address in step 2 is "localhost"
+
+## JUPYTER 
+Cứ bật lên mà chạy :)))))))))))))))))
