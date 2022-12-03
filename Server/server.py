@@ -80,6 +80,7 @@ def sendImage(client,key_AES):
     # capture image
     while True:
         rate,frame = vid.read() #read image from camera
+        if not rate: continue
         frame = cv2.resize(frame,(WIDTH,HEIGHT)) # resize image        
         if cv2.waitKey(1) & 0xFF == ord(' '): 
             # create folder
